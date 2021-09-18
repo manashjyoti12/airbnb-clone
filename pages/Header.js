@@ -19,9 +19,9 @@ export default function Header() {
 
             {/*middle */}
             <div className="flex item-center md:border-2 rounded-full py-2
-            md:shadow-sm">
+            md:shadow-sm p-2">
                 <input
-                    className="flex-grow outline-none pl-5 rounded-full
+                    className="flex-grow outline-none pl-4 rounded-full 
                     bg-transparent "
                     type="text"
                     placeholder="Start your search"
@@ -34,7 +34,7 @@ export default function Header() {
             {/*left */}
             <div className="flex items-center justify-end space-x-4 text-gray-500" >
                 <p className="hidden md:inline cursor-pointer">Become a host </p>
-                <GlobeAltIcon className="h-6 cursor-pointer" />
+                <GlobeAltIcon className="h-6 cursor-pointer pl-2" />
 
                 <div className="flex items-center space-x-2 border-2 rounded-full p-2 ">
                     <MenuIcon className="h-6" />
