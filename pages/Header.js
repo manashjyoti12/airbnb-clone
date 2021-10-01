@@ -82,7 +82,7 @@ export default function Header({placeholder}) {
             </div>
 
             {searchInput && (
-                <div className="hidden md:inline-flex flex flex-col col-span-3 mx-auto">
+                <div className=" flex-col col-span-3 mx-auto">
                     <DateRangePicker
                         
                         ranges={[selectionRange]}
