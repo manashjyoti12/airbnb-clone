@@ -5,7 +5,7 @@ import Header from "./Header";
 import LargeCard from "./LargeCard";
 import MediumCard from "./MediumCard";
 import SmallCard from "./SmallCard";
-import { exploreData, cardData } from "./demo_data";
+import { exploreData, cardData } from "../utils/demo_data";
 
 export default function Home() {
   return (
